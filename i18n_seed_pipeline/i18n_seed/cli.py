@@ -204,7 +204,7 @@ def translate(cfg: TranslateConfig) -> None:
     report["cost_est_usd"] = cost.est_cost_usd
     save_text(os.path.join(cfg.output_dir, "run_report.json"), json.dumps(report, ensure_ascii=False, indent=2))
 
-    # logger.info(f"Estimated cost: ${cost.est_cost_usd:.2f} for {cost.total_chars} chars")
+    logger.info(f"Estimated cost: ${cost.est_cost_usd:.2f} for {cost.total_chars} chars")
 
 def main():
     ap = argparse.ArgumentParser(prog="i18n-seed", description="Translate SQL seeds to multiple locales")
