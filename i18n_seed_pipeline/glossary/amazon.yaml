@@ -1,0 +1,39 @@
+terms:
+  - root: "Add to Cart"
+    locales:
+      fr_FR: "Ajouter au panier"
+      pt_BR: "Adicionar ao carrinho"
+      es_MX: "Agregar al carrito"
+    match_if_source_regex: "(?i)\\b(add to cart|add-to-cart|cta_add_to_cart)\\b"
+
+  - root: "Order"
+    locales:
+      fr_FR: "Commande"
+      pt_BR: "Pedido"
+      es_MX: "Pedido"
+    match_if_source_regex: "(?i)\\border(s)?\\b"
+
+  - root: "Prime"
+    locales:
+      fr_FR: "Prime"
+      pt_BR: "Prime"
+      es_MX: "Prime"
+    match_if_source_regex: "(?i)\\bprime\\b"
+
+  - root: "Ships by Amazon"
+    locales:
+      fr_FR: "Expédié par Amazon"
+      pt_BR: "Enviado pela Amazon"
+      es_MX: "Enviado por Amazon"
+    match_if_source_regex: "(?i)\\b(ship(s)? (by|from) amazon)\\b"
+
+  - root: "Seller"
+    locales:
+      fr_FR: "Vendeur"
+      pt_BR: "Vendedor"
+      es_MX: "Vendedor"
+    match_if_source_regex: "(?i)\\bseller\\b"
+
+normalize:
+  unify_quotes: true
+  strip_nbsp: true

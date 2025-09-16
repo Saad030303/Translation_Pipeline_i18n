@@ -1,0 +1,16 @@
+"channel":
+  fr_FR: "canal"
+  de_DE: "Kanal"
+  es_MX: "canal"
+"workspace":
+  fr_FR: "espace de travail"
+  de_DE: "Arbeitsbereich"
+  es_MX: "espacio de trabajo"
+"app":
+  fr_FR: "application"
+  de_DE: "App"
+  es_MX: "aplicación"
+"workflow":
+  fr_FR: "flux de travail"
+  de_DE: "Workflow"
+  es_MX: "flujo de trabajo"
