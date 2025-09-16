@@ -406,9 +406,3 @@ i18n_seed/
 ```
 
 ---
-
-## License
-
-MIT (see `LICENSE`).
-
----
